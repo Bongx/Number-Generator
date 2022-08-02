@@ -17,8 +17,8 @@ def play():
         print(random_powerball_numbers,random_powerball)
         index +=1
 
-schedule.every().friday.at("06:33").do(play)
-schedule.every().thursday.at("13:00").do(play)
+schedule.every().friday.at("10:30").do(play)
+schedule.every().thursday.at("10:30").do(play)
 
 
 while True:
